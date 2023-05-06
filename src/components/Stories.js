@@ -37,7 +37,6 @@ export default function Stories() {
     ]
 
     return (
-        <div class="corpo">
             <div class='esquerdo'>
                 <div class='stories'>
                     {storyDados.map(dados => <Story link={dados.link} name={dados.name} />)}
@@ -47,7 +46,6 @@ export default function Stories() {
                     </div>
                 </div>
             </div>
-        </div>
     )
 
 }
