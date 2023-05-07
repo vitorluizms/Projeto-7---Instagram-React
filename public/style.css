@@ -90,12 +90,14 @@ body {
 .stories {
   display: flex;
   align-items: center;
+  max-width: 614px;
   height: 118px;
   border-radius: 3px;
   border: 1px solid #DBDBDB;
   padding: 0 18px;
   overflow: hidden;
   position: relative;
+  background-color: #ffffff;
 }
 
 .story {
@@ -151,6 +153,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 18px;
+  background-color: #ffffff;
 }
 
 .post .topo {

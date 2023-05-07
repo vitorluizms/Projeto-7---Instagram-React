@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
-        <div class='navbar'>
-            <div class= 'container'>
+        <div className='navbar'>
+            <div className= 'container'>
                 <Logo />
                 <Pesquisa />
                 <Icones />
@@ -13,23 +13,23 @@ export default function Navbar() {
 } 
 const Logo = () => {
     return (
-    <div class='logo'>
+    <div className='logo'>
         <ion-icon name='logo-instagram'></ion-icon>
-        <div class='separador'></div>
+        <div className='separador'></div>
         <img src="assets/img/logo.png" alt="logo" />
     </div>
     )
 }
 const Pesquisa = () => {
     return (
-        <div class="pesquisa">
+        <div className="pesquisa">
             <input type="text" placeholder="Pesquisar" />
         </div>
     )
 }
 const Icones = () => {
     return (
-        <div class="icones">
+        <div className="icones">
             <ion-icon name="paper-plane-outline"></ion-icon>
             <ion-icon name="compass-outline"></ion-icon>
             <ion-icon name="heart-outline"></ion-icon>
@@ -39,7 +39,7 @@ const Icones = () => {
 }
 const IconesMob = () => {
     return (
-        <div class="icones-mobile">
+        <div className="icones-mobile">
             dsfdgf
             <ion-icon name="paper-plane-outline"></ion-icon>
         </div>

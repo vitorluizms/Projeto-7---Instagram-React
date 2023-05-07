@@ -1,17 +1,20 @@
 import Navbar from "./Navbar";
 import Stories from "./Stories.js";
 import Posts from "./Posts.js";
+import Sidebar from "./Sidebar.js";
+import React from "react";
 
 export default function App() {
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
-      <div class="corpo">
-        <div class="esquerdo">
+      <div className="corpo">
+        <div className="esquerdo">
           <Stories />
           <Posts />
         </div>
+        <Sidebar />
       </div>
-    </div>
+    </React.Fragment>
   );
 }

@@ -33,7 +33,7 @@ export default function Posts() {
   ]
 
   return (
-    <div class="posts">
+    <div className="posts">
         {postDados.map(dados => <Post perfil={dados.perfil} name={dados.name} imagem={dados.imagem}
         likeSrc={dados.likeSrc} likeUser={dados.likeUser} likeNumber={dados.likeNumber} />)}
     </div>
