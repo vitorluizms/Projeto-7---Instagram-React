@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 export default function Post(props) {
+  
+  
+
   return (
     <div className="post">
       <div className="topo">
@@ -31,7 +36,7 @@ export default function Post(props) {
           <img src={props.likeSrc} alt={props.likeUser} />
           <div className="texto">
             Curtido por <strong>{props.likeUser}</strong> e
-            <strong> outras {props.likeNumber} pessoas</strong>
+            <strong> outras {Number(props.likeNumber).toLocaleString("pt-br")} pessoas</strong>
           </div>
         </div>
       </div>

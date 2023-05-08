@@ -10,7 +10,7 @@ export default function Posts() {
       content: "gato-telefone",
       likeSrc: "assets/img/respondeai.svg",
       likeUser: "respondeai",
-      likeNumber: "101.523"
+      likeNumber: "101523"
     },
     {
       perfil: "assets/img/barked.svg",
@@ -19,7 +19,7 @@ export default function Posts() {
       content:"dog",
       likeSrc: "assets/img/adorable_animals.svg",
       likeUser: "adorable_animals",
-      likeNumber: "99.159"
+      likeNumber: "99159"
     },
     {
       perfil: "assets/img/meowed.svg",
@@ -28,7 +28,7 @@ export default function Posts() {
       content: "gato-telefone",
       likeSrc: "assets/img/respondeai.svg",
       likeUser: "respondeai",
-      likeNumber: "101.523"
+      likeNumber: "101523"
     },
   ]
 
